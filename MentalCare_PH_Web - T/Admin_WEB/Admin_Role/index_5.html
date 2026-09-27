@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - Role Permissions</title>
+<link rel="stylesheet" href="styles_5.css">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="sidebar-brand">MentalCare PH</div>
+
+  <div class="sidebar-nav">
+    <button class="nav-item" data-page="dashboard"><span class="nav-icon">🏠</span> Dashboard</button>
+    <button class="nav-item" data-page="users"><span class="nav-icon">👥</span> User management</button>
+    <button class="nav-item" data-page="content"><span class="nav-icon">📚</span> Content management</button>
+    <button class="nav-item" data-page="reports"><span class="nav-icon">📈</span> Reports &amp; analytics</button>
+    <button class="nav-item active" data-page="roles"><span class="nav-icon">🎚️</span> Role permissions</button>
+    <button class="nav-item" data-page="settings"><span class="nav-icon">⚙️</span> System settings</button>
+    <button class="nav-item" data-page="audit"><span class="nav-icon">📋</span> Audit logs</button>
+  </div>
+
+  <div class="sidebar-footer">
+    <div class="sidebar-avatar">SA</div>
+    <div>
+      <div class="sidebar-user-name">System Admin</div>
+      <div class="sidebar-user-role">Administrator</div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+  <div class="header-row">
+    <h1 class="page-title">Role-based access control</h1>
+    <button class="new-role-btn" id="newRoleBtn">+ New role</button>
+  </div>
+  <p class="page-sub">Define what each role can see and do</p>
+
+  <div class="table-panel">
+    <table class="perm-table">
+      <thead>
+        <tr>
+          <th>Permission</th>
+          <th class="center">Client/User</th>
+          <th class="center">Counselor</th>
+          <th class="center">Admin</th>
+        </tr>
+      </thead>
+      <tbody id="permBody"></tbody>
+    </table>
+  </div>
+</div>
+
+<script src="script_5.js"></script>
+<script src="../../prototype-navigation.js"></script>
+</body>
+</html>

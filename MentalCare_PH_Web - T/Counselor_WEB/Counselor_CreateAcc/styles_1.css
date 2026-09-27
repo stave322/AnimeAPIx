@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --navy: #0e3a5c;
+  --teal: #1aab8a;
+  --teal-light: #4fc3a1;
+  --text-dark: #1b2a35;
+  --text-muted: #6b7a84;
+  --border: #d7dee2;
+  --bg: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text-dark);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.page {
+  display: flex;
+  width: 100%;
+  max-width: 940px;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* LEFT: BRAND MARK */
+.brand-panel {
+  flex: 1 1 300px;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.brand-panel .mark { width: 200px; height: 200px; object-fit: contain; }
+
+.brand-panel .brand-name {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--navy);
+  margin-top: 6px;
+}
+
+.brand-panel .brand-name span { color: var(--teal); }
+
+.brand-panel .brand-tagline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--teal);
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.brand-panel .brand-tagline .bar {
+  width: 26px;
+  height: 1px;
+  background: var(--teal);
+  display: inline-block;
+}
+
+/* RIGHT: FORM PANEL */
+.form-panel {
+  flex: 1 1 400px;
+  max-width: 440px;
+}
+
+h1.title {
+  font-size: 26px;
+  color: var(--navy);
+  margin: 0 0 6px;
+  font-weight: 800;
+}
+
+p.subtitle {
+  margin: 0 0 26px;
+  color: var(--text-muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+
+.field { margin-bottom: 18px; }
+
+.two-col {
+  display: flex;
+  gap: 14px;
+}
+
+.two-col .field { flex: 1; margin-bottom: 18px; }
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  color: var(--text-dark);
+  outline: none;
+  transition: border-color 0.15s ease;
+  background: #fff;
+}
+
+input:focus { border-color: var(--teal); }
+
+.field-error input { border-color: #d64545; }
+
+.error-msg {
+  color: #d64545;
+  font-size: 12px;
+  margin-top: 5px;
+  display: none;
+}
+
+.field-error .error-msg { display: block; }
+
+button.submit-btn {
+  width: 100%;
+  padding: 13px;
+  background: var(--teal);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+button.submit-btn:hover { background: #158e73; }
+button.submit-btn:active { transform: translateY(1px); }
+button.submit-btn:disabled {
+  background: #9bcdc0;
+  cursor: not-allowed;
+}
+
+.form-msg {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 14px;
+  min-height: 18px;
+}
+
+.form-msg.success { color: var(--teal); }
+.form-msg.error { color: #d64545; }
+
+@media (max-width: 760px) {
+  .page { flex-direction: column; }
+  .brand-panel { align-items: center; text-align: center; }
+  .brand-panel .mark { width: 150px; height: 150px; }
+  .two-col { flex-direction: column; gap: 0; }
+}

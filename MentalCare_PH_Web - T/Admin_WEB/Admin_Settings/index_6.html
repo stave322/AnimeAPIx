@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - System Settings</title>
+<link rel="stylesheet" href="styles_6.css">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="sidebar-brand">MentalCare PH</div>
+
+  <div class="sidebar-nav">
+    <button class="nav-item" data-page="dashboard"><span class="nav-icon">🏠</span> Dashboard</button>
+    <button class="nav-item" data-page="users"><span class="nav-icon">👥</span> User management</button>
+    <button class="nav-item" data-page="content"><span class="nav-icon">📚</span> Content management</button>
+    <button class="nav-item" data-page="reports"><span class="nav-icon">📈</span> Reports &amp; analytics</button>
+    <button class="nav-item" data-page="roles"><span class="nav-icon">🎚️</span> Role permissions</button>
+    <button class="nav-item active" data-page="settings"><span class="nav-icon">⚙️</span> System settings</button>
+    <button class="nav-item" data-page="audit"><span class="nav-icon">📋</span> Audit logs</button>
+  </div>
+
+  <div class="sidebar-footer">
+    <div class="sidebar-avatar">SA</div>
+    <div>
+      <div class="sidebar-user-name">System Admin</div>
+      <div class="sidebar-user-role">Administrator</div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+  <h1 class="page-title">System settings</h1>
+  <p class="page-sub">Platform-wide configuration</p>
+
+  <!-- NOTIFICATION SETTINGS -->
+  <div class="panel">
+    <h2>Notification settings</h2>
+
+    <div class="setting-row">
+      <span class="setting-label">Email confirmations for new bookings</span>
+      <input type="checkbox" id="emailConfirm" checked>
+    </div>
+    <div class="setting-row">
+      <span class="setting-label">SMS reminders 24 hours before session</span>
+      <input type="checkbox" id="smsReminder">
+    </div>
+    <div class="setting-row">
+      <span class="setting-label">Push notifications for new resources</span>
+      <input type="checkbox" id="pushNotif" checked>
+    </div>
+  </div>
+
+  <!-- SECURITY -->
+  <div class="panel">
+    <h2>Security</h2>
+
+    <div class="setting-row">
+      <span class="setting-label">Require two-factor authentication for admins</span>
+      <input type="checkbox" id="require2fa">
+    </div>
+    <div class="setting-row">
+      <span class="setting-label">Auto-lock inactive accounts after 90 days</span>
+      <input type="checkbox" id="autoLock" checked>
+    </div>
+
+    <button class="save-settings-btn" id="saveSettingsBtn">Save Settings</button>
+    <div class="save-settings-status" id="saveStatus"></div>
+  </div>
+</div>
+
+<script src="script_6.js"></script>
+<script src="../../prototype-navigation.js"></script>
+</body>
+</html>

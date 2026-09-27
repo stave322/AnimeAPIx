@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MentalCare PH - Login</title>
+
+  <!-- POPPINS FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="styles.css">
+
+<base target="_blank">
+</head>
+
+<body>
+
+  <div class="page">
+
+    <!-- =================================
+         LEFT: LOGIN FORM
+    ================================== -->
+
+    <div class="form-panel">
+
+      <!-- SMALL LOGO -->
+      <div class="logo-row">
+        <img src="../../../pictures/776639704_28097395019922794_1637696865324547307_n (1).jpg" alt="MentalCare PH Logo" class="logo-icon">
+
+        <div class="logo-text">
+          <div class="brand">Mental<span>Care</span> PH</div>
+          <div class="tagline">MIND. CARE. THRIVE.</div>
+        </div>
+      </div>
+
+      <!-- WELCOME -->
+      <h1 class="welcome">Welcome Back</h1>
+      <p class="subtitle">Log in to continue your wellness journey.</p>
+
+      <!-- LOGIN FORM -->
+      <form id="loginForm" novalidate>
+
+        <!-- EMAIL -->
+        <div class="field" id="emailField">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email">
+          <div class="error-msg" id="emailError">Please enter a valid email address.</div>
+        </div>
+
+        <!-- PASSWORD -->
+        <div class="field" id="passwordField">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password">
+          <div class="error-msg" id="passwordError">Password is required.</div>
+        </div>
+
+        <!-- REMEMBER + FORGOT PASSWORD -->
+        <div class="row-between">
+          <label class="remember">
+            <input type="checkbox" id="remember">
+            Remember me
+          </label>
+          <a class="link" id="forgotLink">Forgot Password?</a>
+        </div>
+
+        <!-- LOGIN BUTTON -->
+        <button type="submit" class="login-btn" id="loginBtn">Log In</button>
+
+        <!-- FORM MESSAGE -->
+        <div class="form-msg" id="formMsg"></div>
+
+      </form>
+
+      <!-- CREATE ACCOUNT -->
+      <div class="signup-text">
+        Don't have an account?
+        <a class="link" id="createLink">Create One</a>
+      </div>
+
+      <hr>
+
+      <!-- COUNSELOR LOGIN -->
+      <div class="counselor-text">
+        Are you a Counselor?
+        <a class="link" id="counselorLink">Log in here</a>
+      </div>
+
+    </div>
+
+    <!-- =================================
+         RIGHT: BRAND PANEL
+    ================================== -->
+
+    <div class="brand-panel">
+      <img src="../../../pictures/776639704_28097395019922794_1637696865324547307_n (1).jpg" alt="MentalCare PH Logo" class="brand-image">
+
+      <div class="brand-name">Mental<span>Care</span> PH</div>
+
+      <div class="brand-tagline">
+        <span class="bar"></span>
+        Mind. Care. Thrive.
+        <span class="bar"></span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- =================================
+       RESET PASSWORD MODAL
+  ================================== -->
+
+  <div class="modal-overlay" id="resetModal">
+
+    <div class="modal">
+
+      <!-- STEP 1: ENTER EMAIL -->
+      <div id="resetStep1">
+        <h2>Reset Password</h2>
+        <p>Enter the email of your account. If it exists, you can set a new password.</p>
+
+        <div class="field">
+          <label for="resetEmail">Email address</label>
+          <input type="email" id="resetEmail" placeholder="your@email.com">
+          <div class="error-msg" id="resetEmailError">No account found with that email.</div>
+        </div>
+
+        <div class="modal-actions">
+          <button class="btn-modal-secondary" id="resetCancelBtn">Cancel</button>
+          <button class="btn-modal-primary" id="resetNextBtn">Next</button>
+        </div>
+      </div>
+
+      <!-- STEP 2: NEW PASSWORD -->
+      <div id="resetStep2">
+        <h2>Set New Password</h2>
+        <p>Choose a new password (at least 8 characters).</p>
+
+        <div class="field">
+          <label for="newPassword">New Password</label>
+          <input type="password" id="newPassword" placeholder="At least 8 characters">
+          <div class="error-msg" id="newPasswordError">Password must be at least 8 characters.</div>
+        </div>
+
+        <div class="field">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" placeholder="Repeat new password">
+          <div class="error-msg" id="confirmPasswordError">Passwords do not match.</div>
+        </div>
+
+        <div class="modal-actions">
+          <button class="btn-modal-secondary" id="resetBackBtn">Back</button>
+          <button class="btn-modal-primary" id="resetSubmitBtn">Save Password</button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+
+<script src="../../prototype-navigation.js"></script>
+</body>
+
+</html>

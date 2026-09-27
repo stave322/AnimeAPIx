@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - Reports &amp; Analytics</title>
+<link rel="stylesheet" href="styles_4.css">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="sidebar-brand">MentalCare PH</div>
+
+  <div class="sidebar-nav">
+    <button class="nav-item" data-page="dashboard"><span class="nav-icon">🏠</span> Dashboard</button>
+    <button class="nav-item" data-page="users"><span class="nav-icon">👥</span> User management</button>
+    <button class="nav-item" data-page="content"><span class="nav-icon">📚</span> Content management</button>
+    <button class="nav-item active" data-page="reports"><span class="nav-icon">📈</span> Reports &amp; analytics</button>
+    <button class="nav-item" data-page="roles"><span class="nav-icon">🎚️</span> Role permissions</button>
+    <button class="nav-item" data-page="settings"><span class="nav-icon">⚙️</span> System settings</button>
+    <button class="nav-item" data-page="audit"><span class="nav-icon">📋</span> Audit logs</button>
+  </div>
+
+  <div class="sidebar-footer">
+    <div class="sidebar-avatar">SA</div>
+    <div>
+      <div class="sidebar-user-name">System Admin</div>
+      <div class="sidebar-user-role">Administrator</div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+  <div class="header-row">
+    <h1 class="page-title">System overview</h1>
+    <button class="export-btn" id="exportBtn">Export CSV</button>
+  </div>
+  <p class="page-sub">Platform-wide activity and health</p>
+
+  <!-- STAT CARDS -->
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-label">Appointments booked</div>
+      <div class="stat-value">386</div>
+      <div class="stat-sub">▲ 12% vs last month</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Assessments completed</div>
+      <div class="stat-value">512</div>
+      <div class="stat-sub">▲ 8% vs last month</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">No-show rate</div>
+      <div class="stat-value">6.4%</div>
+      <div class="stat-sub">▼ 1.2pt improvement</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Avg. session rating</div>
+      <div class="stat-value">4.7</div>
+      <div class="stat-sub muted">Across 24 counselors</div>
+    </div>
+  </div>
+
+  <!-- BAR CHART -->
+  <div class="panel">
+    <h2>Appointments per week</h2>
+    <div class="bar-chart" id="barChart"></div>
+  </div>
+
+  <!-- CONCERNS TABLE -->
+  <div class="panel">
+    <h2>Top concerns reported</h2>
+    <div class="concern-row header">
+      <span>Concern</span>
+      <span>Share of responses</span>
+    </div>
+    <div id="concernList"></div>
+  </div>
+</div>
+
+<script src="script_4.js"></script>
+<script src="../../prototype-navigation.js"></script>
+</body>
+</html>

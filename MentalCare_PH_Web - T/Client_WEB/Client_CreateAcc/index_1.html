@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MentalCare PH - Create Account</title>
+
+  <!-- POPPINS FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="styles_1.css">
+
+<base target="_blank">
+</head>
+
+<body>
+
+  <div class="page">
+
+    <!-- =====================================
+         LEFT: BRAND PANEL
+    ====================================== -->
+
+    <div class="brand-panel">
+
+      <img src="../../../pictures/776639704_28097395019922794_1637696865324547307_n (1).jpg" alt="MentalCare PH Logo" class="brand-image">
+
+      <div class="brand-name">Mental<span>Care</span> PH</div>
+
+      <div class="brand-tagline">
+        <span class="bar"></span>
+        Mind. Care. Thrive.
+        <span class="bar"></span>
+      </div>
+
+    </div>
+
+    <!-- =====================================
+         RIGHT: CREATE ACCOUNT FORM
+    ====================================== -->
+
+    <div class="form-panel">
+
+      <h1 class="title">Create your account</h1>
+      <p class="subtitle">Join MentalCare PH as a student, or employer</p>
+
+      <form id="signupForm" novalidate>
+
+        <!-- FIRST NAME + LAST NAME -->
+        <div class="name-row">
+
+          <div class="field" id="firstNameField">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" autocomplete="given-name">
+            <div class="error-msg">First name is required.</div>
+          </div>
+
+          <div class="field" id="lastNameField">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" autocomplete="family-name">
+            <div class="error-msg">Last name is required.</div>
+          </div>
+
+        </div>
+
+        <!-- EMAIL -->
+        <div class="field" id="emailField">
+          <label for="email">Institution Email</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email">
+          <div class="error-msg" id="emailErrorMsg">Please enter a valid email address.</div>
+        </div>
+
+        <!-- PASSWORD -->
+        <div class="field" id="passwordField">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="At least 8 characters" autocomplete="new-password">
+          <div class="error-msg">Password must be at least 8 characters.</div>
+        </div>
+
+        <!-- ROLE -->
+        <div class="field" id="roleField">
+          <label for="role">I am a</label>
+          <select id="role" name="role">
+            <option value="" disabled selected>Select one</option>
+            <option value="student">Student</option>
+            <option value="employer">Employer</option>
+          </select>
+          <div class="error-msg">Please select an option.</div>
+        </div>
+
+        <!-- PRIVACY CONSENT -->
+        <div class="consent-row" id="consentField">
+          <input type="checkbox" id="consent" name="consent">
+          <label for="consent">
+            I agree to the
+            <a id="privacyLink">Privacy Policy</a>
+            and consent to secure handling of my mental health data.
+          </label>
+        </div>
+
+        <!-- CREATE ACCOUNT BUTTON -->
+        <button type="submit" class="create-btn" id="createBtn">Create Account</button>
+
+        <!-- FORM MESSAGE -->
+        <div class="form-msg" id="formMsg"></div>
+
+      </form>
+
+      <!-- LOGIN -->
+      <div class="login-text">
+        Already have an Account?
+        <a id="loginLink">Log in</a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- SCRIPT -->
+  <script src="script_1.js"></script>
+
+<script src="../../prototype-navigation.js"></script>
+</body>
+
+</html>

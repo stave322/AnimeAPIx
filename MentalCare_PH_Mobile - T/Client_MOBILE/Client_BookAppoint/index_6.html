@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - Book Appointment (iPhone 17 Preview)</title>
+
+<!-- STYLES -->
+<link rel="stylesheet" href="styles_6.css">
+</head>
+<body>
+
+<div class="stage">
+  <div>
+    <div class="iphone">
+      <div class="screen">
+        <div class="dynamic-island"></div>
+
+        <div class="status-bar">
+          <span>9:41</span>
+          <div class="status-icons">
+            <svg width="18" height="12" viewBox="0 0 18 12" fill="none"><rect x="0" y="7" width="3" height="5" rx="0.5" fill="#1b2a35"/><rect x="4.5" y="5" width="3" height="7" rx="0.5" fill="#1b2a35"/><rect x="9" y="3" width="3" height="9" rx="0.5" fill="#1b2a35"/><rect x="13.5" y="0" width="3" height="12" rx="0.5" fill="#1b2a35"/></svg>
+            <svg width="16" height="12" viewBox="0 0 16 12" fill="none"><path d="M8 10.5C8.55 10.5 9 10.05 9 9.5C9 8.95 8.55 8.5 8 8.5C7.45 8.5 7 8.95 7 9.5C7 10.05 7.45 10.5 8 10.5Z" fill="#1b2a35"/><path d="M8 6.8C9.1 6.8 10.1 7.2 10.9 7.9L12 6.7C10.9 5.7 9.5 5.1 8 5.1C6.5 5.1 5.1 5.7 4 6.7L5.1 7.9C5.9 7.2 6.9 6.8 8 6.8Z" fill="#1b2a35"/><path d="M8 3.1C10.1 3.1 12 3.9 13.5 5.3L14.6 4.1C12.8 2.4 10.5 1.4 8 1.4C5.5 1.4 3.2 2.4 1.4 4.1L2.5 5.3C4 3.9 5.9 3.1 8 3.1Z" fill="#1b2a35"/></svg>
+            <svg width="24" height="12" viewBox="0 0 24 12" fill="none"><rect x="0.5" y="0.5" width="21" height="11" rx="2.5" stroke="#1b2a35"/><rect x="2" y="2" width="16" height="8" rx="1.3" fill="#1b2a35"/><rect x="22.5" y="4" width="1.5" height="4" rx="0.7" fill="#1b2a35"/></svg>
+          </div>
+        </div>
+
+        <div class="app-content">
+
+          <h1 class="page-title">Book appointment</h1>
+
+          <h2 class="section-title">Choose a counselor</h2>
+          <div class="counselor-list" id="counselorList"></div>
+
+          <div class="date-header">
+            <div class="date-title-wrap">
+              <div class="date-label" id="dateLabel">Wednesday, August 14</div>
+              <button id="calendarBtn" class="calendar-btn" type="button" aria-label="Pick a date">
+                <img src="../../../pictures/calendar (1).png" alt="Calendar picker" />
+              </button>
+            </div>
+          </div>
+
+          <input id="datePicker" type="date" hidden>
+
+          <div id="datePickerModal" class="date-picker-modal" aria-hidden="true">
+            <div class="date-picker-panel" role="dialog" aria-modal="true" aria-labelledby="datePickerTitle">
+              <div class="date-picker-header">
+                <h3 id="datePickerTitle">Select a date</h3>
+                <button id="closeDatePicker" class="date-picker-close" type="button" aria-label="Close calendar">×</button>
+              </div>
+              <input id="datePickerModalInput" type="date" />
+              <div class="date-picker-actions">
+                <button id="applyDatePicker" class="date-picker-apply" type="button">Done</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="time-slots" id="timeSlots"></div>
+
+          <div class="field">
+            <label class="field-label">Session Type</label>
+            <select id="sessionType">
+              <option value="virtual">Virtual (video call)</option>
+              <option value="phone">Phone call</option>
+              <option value="in-person">In-person</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label class="field-label">Reason for visit (optional)</label>
+            <textarea id="reason" placeholder="Briefly share what you'd like to talk about..."></textarea>
+          </div>
+
+          <button class="confirm-btn" id="confirmBtn">Confirm Appointment</button>
+          <div class="confirm-msg" id="confirmMsg"></div>
+
+          <div class="notice-modal hidden" id="appointmentNoticeModal" aria-hidden="true">
+            <div class="notice-modal-content">
+              <div class="notice-modal-header">
+                <h3 id="appointmentNoticeTitle">Appointment status</h3>
+                <button class="notice-modal-close" id="closeAppointmentNotice" type="button" aria-label="Close appointment notice">×</button>
+              </div>
+              <div class="notice-modal-message" id="appointmentNoticeMessage" aria-live="polite"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- TAB BAR -->
+        <div class="tab-bar">
+          <button class="tab-item" data-tab="home">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5 12 3l9 6.5"/><path d="M5 10v10a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1V10"/></svg>
+            <span>Home</span>
+          </button>
+          <button class="tab-item" data-tab="assess">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+            <span>Assess</span>
+          </button>
+          <button class="tab-item active" data-tab="appts">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+            <span>Appts</span>
+          </button>
+          <button class="tab-item" data-tab="learn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            <span>Learn</span>
+          </button>
+          <button class="tab-item" data-tab="profile">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+            <span>Profile</span>
+          </button>
+        </div>
+
+        <div class="home-indicator"></div>
+      </div>
+    </div>
+
+    <div class="caption">MentalCare PH — Book Appointment · iPhone 17 preview</div>
+  </div>
+</div>
+
+<!-- SCRIPT -->
+<script src="../../prototype-navigation.js"></script>
+<script src="script_6.js"></script>
+
+</body>
+</html>

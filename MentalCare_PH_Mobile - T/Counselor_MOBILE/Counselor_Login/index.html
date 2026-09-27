@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - Counselor Portal (iPhone 17 Preview)</title>
+
+<!-- STYLES -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="stage">
+  <div>
+    <div class="iphone">
+      <div class="screen">
+        <div class="dynamic-island"></div>
+
+        <div class="status-bar">
+          <span>9:41</span>
+          <div class="status-icons">
+            <svg width="18" height="12" viewBox="0 0 18 12" fill="none"><rect x="0" y="7" width="3" height="5" rx="0.5" fill="#1b2a35"/><rect x="4.5" y="5" width="3" height="7" rx="0.5" fill="#1b2a35"/><rect x="9" y="3" width="3" height="9" rx="0.5" fill="#1b2a35"/><rect x="13.5" y="0" width="3" height="12" rx="0.5" fill="#1b2a35"/></svg>
+            <svg width="16" height="12" viewBox="0 0 16 12" fill="none"><path d="M8 10.5C8.55 10.5 9 10.05 9 9.5C9 8.95 8.55 8.5 8 8.5C7.45 8.5 7 8.95 7 9.5C7 10.05 7.45 10.5 8 10.5Z" fill="#1b2a35"/><path d="M8 6.8C9.1 6.8 10.1 7.2 10.9 7.9L12 6.7C10.9 5.7 9.5 5.1 8 5.1C6.5 5.1 5.1 5.7 4 6.7L5.1 7.9C5.9 7.2 6.9 6.8 8 6.8Z" fill="#1b2a35"/><path d="M8 3.1C10.1 3.1 12 3.9 13.5 5.3L14.6 4.1C12.8 2.4 10.5 1.4 8 1.4C5.5 1.4 3.2 2.4 1.4 4.1L2.5 5.3C4 3.9 5.9 3.1 8 3.1Z" fill="#1b2a35"/></svg>
+            <svg width="24" height="12" viewBox="0 0 24 12" fill="none"><rect x="0.5" y="0.5" width="21" height="11" rx="2.5" stroke="#1b2a35"/><rect x="2" y="2" width="16" height="8" rx="1.3" fill="#1b2a35"/><rect x="22.5" y="4" width="1.5" height="4" rx="0.7" fill="#1b2a35"/></svg>
+          </div>
+        </div>
+
+        <div class="app-content">
+
+          <button type="button" class="back-btn" id="backRoleBtn" aria-label="Back to role selection" title="Back to role selection">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+
+          <div class="logo-wrap">
+            <img src="/pictures/776639704_28097395019922794_1637696865324547307_n (1).jpg" alt="MentalCare PH Logo" class="logo-icon">
+            <div class="brand-name">Mental<span>Care</span> PH</div>
+            <div class="tagline">MIND. CARE. THRIVE.</div>
+          </div>
+
+          <h1 class="welcome">Counselor Portal</h1>
+          <p class="subtitle">Log in to access your appointment.</p>
+
+          <form id="loginForm" novalidate>
+            <div class="field" id="emailField">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email">
+              <div class="error-msg">Please enter a valid email address.</div>
+            </div>
+
+            <div class="field" id="passwordField">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password">
+              <div class="error-msg">Password is required.</div>
+            </div>
+
+            <div class="forgot-row">
+              <a href="#" class="link" id="forgotLink">Forgot Password?</a>
+            </div>
+
+            <button type="submit" class="login-btn" id="loginBtn">Log In</button>
+
+            <div class="form-msg" id="formMsg"></div>
+          </form>
+
+          <div class="signup-text">
+            New counselor? <a href="#" class="link" id="requestLink">Request an account</a>
+          </div>
+
+        </div>
+
+        <div class="home-indicator"></div>
+      </div>
+    </div>
+
+    <div class="caption">MentalCare PH — Counselor Portal · iPhone 17 preview</div>
+  </div>
+</div>
+
+<!-- SCRIPT -->
+<script src="../../prototype-navigation.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

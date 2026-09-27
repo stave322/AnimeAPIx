@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - Counselor Dashboard</title>
+<link rel="stylesheet" href="styles_2.css">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="sidebar-brand">
+    <!-- <img src="/pictures/776639704_28097395019922794_1637696865324547307_n (1).jpg" alt="MentalCare PH logo" class="nav-logo"> -->
+    MentalCare PH
+  </div>
+
+  <div class="sidebar-nav" id="sidebarNav">
+    <button class="nav-item active" data-page="dashboard"><span class="nav-icon">🏠</span> Dashboard</button>
+    <button class="nav-item" data-page="schedule"><span class="nav-icon">📅</span> Schedule</button>
+    <button class="nav-item" data-page="clients"><span class="nav-icon">📁</span> Client review</button>
+    <button class="nav-item" data-page="notifications"><span class="nav-icon">🔔</span> Notifications</button>
+    <button class="nav-item" data-page="profile"><span class="nav-icon">👤</span> Profile</button>
+    <button class="nav-item" data-page="logout"><span class="nav-icon">🚪</span> Log Out</button>
+  </div>
+
+  <div class="sidebar-footer">
+    <div class="sidebar-avatar">AR</div>
+    <div></div>
+      <div class="sidebar-user-name">A. Reyes, RPsy</div>
+      <div class="sidebar-user-role">Counselor</div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+  <div class="header-row">
+    <h1 class="page-title" id="greeting">Welcome back, Ms. Reyes</h1>
+    <button class="block-btn" id="blockTimeBtn">+ Block of Time</button>
+  </div>
+  <p class="page-sub" id="pageSub">Wednesday, August 14 · You have 5 sessions today</p>
+
+  <!-- STAT CARDS -->
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-label">Today's Session</div>
+      <div class="stat-value">5</div>
+      <div class="stat-sub">2 virtual · 3 in-person</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Pending requests</div>
+      <div class="stat-value" id="pendingCount">3</div>
+      <div class="stat-sub">Needs response</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Active clients</div>
+      <div class="stat-value">28</div>
+      <div class="stat-sub">▲ 4 this month</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Avg. session rating</div>
+      <div class="stat-value">4.8</div>
+      <div class="stat-sub">From 61 reviews</div>
+    </div>
+  </div>
+
+  <!-- CONTENT GRID -->
+  <div class="content-grid">
+    <!-- SCHEDULE -->
+    <div class="panel">
+      <h2>Today's schedule</h2>
+      <table class="schedule-table">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Client</th>
+            <th>Type</th>
+            <th>Status</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="scheduleBody"></tbody>
+      </table>
+    </div>
+
+    <!-- APPOINTMENT REQUESTS -->
+    <div class="panel">
+      <h2>New appointment requests</h2>
+      <div id="requestList"></div>
+    </div>
+  </div>
+</div>
+
+<script src="script_2.js"></script>
+<script src="../../prototype-navigation.js"></script>
+</body>
+</html>

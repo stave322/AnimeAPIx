@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - Assessment</title>
+
+<!-- STYLES -->
+<link rel="stylesheet" href="style_4.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="nav-left">
+    <img src="../../../pictures/776639704_28097395019922794_1637696865324547307_n (1).jpg" alt="MentalCare PH Logo" class="nav-logo">
+    <div class="nav-brand-text">
+      <div class="brand">Mental<span>Care</span> PH</div>
+      <div class="tagline">MIND. CARE. THRIVE.</div>
+    </div>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="#" data-page="home">Home</a></li>
+    <li><a href="#" data-page="resources">Resources</a></li>
+    <li><a href="#" data-page="appointment">Appointment</a></li>
+    <li><a href="#" class="active" data-page="assessment">Assessment</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <button class="bell-btn" id="bellBtn" aria-label="Notifications">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></svg>
+      <span class="dot"></span>
+    </button>
+    <button class="avatar" id="avatarBtn">RY</button>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <div id="assessmentFlow">
+    <div class="progress-header">
+      <span class="question-count" id="questionCount">QUESTION 1 OF 10</span>
+      <span class="diagnosis-note">For Awareness only – not a diagnosis</span>
+    </div>
+
+    <div class="progress-track">
+      <div class="progress-fill" id="progressFill" style="width: 10%;"></div>
+    </div>
+
+    <div class="question-card">
+      <p class="question-text" id="questionText">Loading question...</p>
+      <div class="options" id="optionsContainer"></div>
+
+      <div class="nav-buttons">
+        <button class="btn-back" id="backBtn" disabled>Back</button>
+        <button class="btn-next" id="nextBtn" disabled>Next</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="complete-state" id="completeState">
+    <div class="check">✓</div>
+    <h2>Check-in complete</h2>
+    <p>Thanks for taking the time to reflect. Your counselor will review your responses.</p>
+    <div id="resultSummary" class="result-summary"></div>
+    <button id="restartBtn">Take again</button>
+  </div>
+
+</div>
+
+<!-- SCRIPT -->
+<script src="script_4.js"></script>
+
+<script src="../../prototype-navigation.js"></script>
+</body>
+</html>

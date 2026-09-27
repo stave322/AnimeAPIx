@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - Audit Logs</title>
+<link rel="stylesheet" href="styles_7.css">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="sidebar-brand">MentalCare PH</div>
+
+  <div class="sidebar-nav">
+    <button class="nav-item" data-page="dashboard"><span class="nav-icon">🏠</span> Dashboard</button>
+    <button class="nav-item" data-page="users"><span class="nav-icon">👥</span> User management</button>
+    <button class="nav-item" data-page="content"><span class="nav-icon">📚</span> Content management</button>
+    <button class="nav-item" data-page="reports"><span class="nav-icon">📈</span> Reports &amp; analytics</button>
+    <button class="nav-item" data-page="roles"><span class="nav-icon">🎚️</span> Role permissions</button>
+    <button class="nav-item" data-page="settings"><span class="nav-icon">⚙️</span> System settings</button>
+    <button class="nav-item active" data-page="audit"><span class="nav-icon">📋</span> Audit logs</button>
+  </div>
+
+  <div class="sidebar-footer">
+    <div class="sidebar-avatar">SA</div>
+    <div>
+      <div class="sidebar-user-name">System Admin</div>
+      <div class="sidebar-user-role">Administrator</div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+  <div class="header-row">
+    <h1 class="page-title">Audit logs</h1>
+    <button class="export-btn" id="exportBtn">Export CSV</button>
+  </div>
+  <p class="page-sub">Every administrative action, logged for accountability</p>
+
+  <!-- FILTER BAR -->
+  <div class="filter-bar">
+    <input type="text" class="search-input" id="searchInput" placeholder="Search by admin, action, or record...">
+    <select class="filter-select" id="actionFilter">
+      <option value="all">All actions</option>
+      <option value="create">Create</option>
+      <option value="update">Update</option>
+      <option value="suspend">Suspend</option>
+      <option value="delete">Delete</option>
+    </select>
+    <select class="filter-select" id="tableFilter">
+      <option value="all">All tables</option>
+      <option value="Counselors">Counselors</option>
+      <option value="Users">Users</option>
+      <option value="Educational_Content">Educational_Content</option>
+      <option value="System_Settings">System_Settings</option>
+    </select>
+    <input type="date" class="date-select" id="dateFilter">
+  </div>
+
+  <!-- TABLE -->
+  <div class="table-panel">
+    <table class="audit-table">
+      <thead>
+        <tr>
+          <th>Log ID</th>
+          <th>Admin</th>
+          <th>Action</th>
+          <th>Table</th>
+          <th>Record ID</th>
+          <th>Details</th>
+          <th>Timestamp</th>
+        </tr>
+      </thead>
+      <tbody id="logsBody"></tbody>
+    </table>
+  </div>
+</div>
+
+<script src="script_7.js"></script>
+<script src="../../prototype-navigation.js"></script>
+</body>
+</html>

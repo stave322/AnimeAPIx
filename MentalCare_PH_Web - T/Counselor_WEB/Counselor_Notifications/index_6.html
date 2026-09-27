@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - Notifications</title>
+<link rel="stylesheet" href="styles_6.css">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="sidebar-brand">MentalCare PH</div>
+
+  <div class="sidebar-nav">
+    <button class="nav-item" data-page="dashboard"><span class="nav-icon">🏠</span> Dashboard</button>
+    <button class="nav-item" data-page="schedule"><span class="nav-icon">📅</span> Schedule</button>
+    <button class="nav-item" data-page="clients"><span class="nav-icon">📁</span> Client review</button>
+    <button class="nav-item active" data-page="notifications"><span class="nav-icon">🔔</span> Notifications</button>
+    <button class="nav-item" data-page="profile"><span class="nav-icon">👤</span> Profile</button>
+    <button class="nav-item" data-page="logout"><span class="nav-icon">🚪</span> Log Out</button>
+  </div>
+
+  <div class="sidebar-footer">
+    <div class="sidebar-avatar">AR</div>
+    <div>
+      <div class="sidebar-user-name">A. Reyes, RPsy</div>
+      <div class="sidebar-user-role">Counselor</div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+  <div class="header-row">
+    <h1 class="page-title">Notifications</h1>
+    <button class="mark-read-link" id="markAllBtn">Mark all as read</button>
+  </div>
+  <p class="page-sub">Appointment and system alerts</p>
+
+  <div class="notif-list" id="notifList"></div>
+</div>
+
+<script src="script_6.js"></script>
+<script src="../../prototype-navigation.js"></script>
+</body>
+</html>

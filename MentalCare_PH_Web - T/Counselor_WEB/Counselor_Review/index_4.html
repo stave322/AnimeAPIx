@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - Client Review</title>
+<link rel="stylesheet" href="styles_4.css">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="sidebar-brand">MentalCare PH</div>
+
+  <div class="sidebar-nav">
+    <button class="nav-item" data-page="dashboard"><span class="nav-icon">🏠</span> Dashboard</button>
+    <button class="nav-item" data-page="schedule"><span class="nav-icon">📅</span> Schedule</button>
+    <button class="nav-item active" data-page="clients"><span class="nav-icon">📁</span> Client review</button>
+    <button class="nav-item" data-page="notifications"><span class="nav-icon">🔔</span> Notifications</button>
+    <button class="nav-item" data-page="profile"><span class="nav-icon">👤</span> Profile</button>
+    <button class="nav-item" data-page="logout"><span class="nav-icon">🚪</span> Log Out</button>
+
+  </div>
+
+  <div class="sidebar-footer">
+    <div class="sidebar-avatar">AR</div>
+    <div>
+      <div class="sidebar-user-name">A. Reyes, RPsy</div>
+      <div class="sidebar-user-role">Counselor</div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+  <div class="header-row">
+    <h1 class="page-title">Client review — Juana Dela Cruz</h1>
+    <button class="start-btn" id="startBtn">Start Session</button>
+  </div>
+  <p class="page-sub">Session at 9:00 AM today · Virtual</p>
+
+  <div class="content-grid">
+    <!-- LATEST SELF-ASSESSMENT -->
+    <div class="panel">
+      <h2>Latest self-assessment</h2>
+
+      <div class="assessment-box">
+        <div class="assessment-box-top">
+          <span class="assessment-title">Latest self-assessment</span>
+          <span class="severity-badge">Moderate</span>
+        </div>
+        <div class="assessment-date">Taken Aug 12, 2026</div>
+      </div>
+
+      <p class="assessment-desc">Client reports frequent overwhelm related to academic workload and disrupted sleep. Score suggests moderate stress levels — recommend coping strategies and follow-up in 2 weeks.</p>
+
+      <hr class="divider">
+
+      <div class="history-title">Session history</div>
+      <div class="history-item" data-detail="Initial consultation on Aug 5: reviewed intake concerns and set goals.">
+        <span class="history-check">✓</span> Aug 5 — Initial consultation
+      </div>
+      <div class="history-item" data-detail="Intake assessment on Jul 22: baseline PHQ/GAD screening completed.">
+        <span class="history-check">✓</span> Jul 22 — Intake assessment
+      </div>
+    </div>
+
+    <!-- SESSION NOTES -->
+    <div class="panel">
+      <h2>Session notes</h2>
+      <textarea id="sessionNotes">Client presented with signs of academic-related stress. Discussed time-management strategies and grounding techniques. Client agreed to practice breathing exercises daily and track mood using the app. Follow-up scheduled in two weeks.</textarea>
+
+      <div class="notes-actions">
+        <button class="btn-save-note" id="saveNoteBtn">Save Note</button>
+        <button class="btn-complete" id="completeBtn">Mark Session Complete</button>
+      </div>
+
+      <div class="save-status" id="saveStatus"></div>
+    </div>
+  </div>
+</div>
+
+<script src="script_4.js"></script>
+<script src="../../prototype-navigation.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCarePH — Virtual Session</title>
+<link rel="stylesheet" href="styles_8.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="live-status">
+    <span class="live-dot"></span>
+    <span>Live · Session with Juana Dela Cruz · <span class="call-timer-inline" id="callTimer">00:14:32</span></span>
+  </div>
+  <div class="encrypted-note">🔒 Encrypted &amp; private</div>
+</div>
+
+<main>
+  <div class="video-panel">
+    <div class="participant">
+      <div class="avatar-emoji">🙂</div>
+      <div class="participant-name">Juana Dela Cruz</div>
+    </div>
+
+    <div class="self-view" id="selfView">You (Ms. Reyes)</div>
+
+    <div class="chat-drawer" id="chatDrawer">
+      <div class="chat-head">In-session chat</div>
+      <div class="chat-messages" id="chatMessages">
+        <div class="chat-msg"><strong>Juana:</strong> Thank you, that helps a lot.</div>
+        <div class="chat-msg"><strong>You:</strong> Glad to hear it. Let's continue.</div>
+      </div>
+      <div class="chat-input-row">
+        <input type="text" id="chatInput" placeholder="Type a message...">
+        <button id="chatSendBtn">Send</button>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button class="ctrl-btn" id="micBtn" title="Toggle microphone">🎙️</button>
+      <button class="ctrl-btn" id="camBtn" title="Toggle camera">📷</button>
+      <button class="ctrl-btn end-call" id="endCallBtn" title="End call">📞</button>
+      <button class="ctrl-btn" id="chatBtn" title="Toggle chat">💬</button>
+    </div>
+  </div>
+
+  <div class="side-panel">
+    <h3>Quick session notes</h3>
+    <textarea class="notes-textarea" id="notesArea" placeholder="Jot notes during the session..." spellcheck="false"></textarea>
+    <div class="notes-meta" id="notesMeta">Not saved yet</div>
+    <button class="btn-save" id="saveNotesBtn">Save &amp; continue</button>
+  </div>
+</main>
+
+<div class="end-modal-overlay" id="endModalOverlay">
+  <div class="end-modal">
+    <h4>End this session?</h4>
+    <p>This will disconnect the call with Juana Dela Cruz. Your session notes will be saved automatically.</p>
+    <div class="btn-row">
+      <button class="btn-stay" id="stayBtn">Stay in call</button>
+      <button class="btn-end" id="confirmEndBtn">End call</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast">Updated.</div>
+
+<script src="script_8.js"></script>
+<script src="../../prototype-navigation.js"></script>
+</body>
+</html>

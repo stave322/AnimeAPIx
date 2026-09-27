@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --navy: #123b63;
+  --teal: #178a78;
+  --teal-light: #4fc3ab;
+  --sage: #8fbf6a;
+  --text-dark: #1b2a35;
+  --text-muted: #6b7a84;
+  --border: #d7dee2;
+  --bg: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text-dark);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.page {
+  display: flex;
+  width: 100%;
+  max-width: 900px;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* LEFT PANEL */
+.form-panel {
+  flex: 1 1 360px;
+  max-width: 380px;
+}
+
+.logo-row {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-bottom: 28px;
+}
+
+.logo-row .nav-logo { width: 42px; height: 42px; object-fit: contain; flex-shrink: 0; border-radius: 8px; }
+
+.logo-text { display: flex; flex-direction: column; gap: 3px; line-height: 1.1; }
+
+.logo-text .brand {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--navy);
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.logo-text .brand span { color: var(--teal); }
+
+.logo-text .tagline {
+  font-size: 10px;
+  letter-spacing: 1.2px;
+  color: var(--teal-light);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+h1.welcome {
+  font-size: 26px;
+  color: var(--navy);
+  margin: 0 0 6px;
+  font-weight: 800;
+}
+
+p.subtitle {
+  margin: 0 0 26px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+
+.field { margin-bottom: 18px; }
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  color: var(--text-dark);
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+input:focus { border-color: var(--teal); }
+
+.field-error input { border-color: #d64545; }
+
+.error-msg {
+  color: #d64545;
+  font-size: 12px;
+  margin-top: 5px;
+  display: none;
+}
+
+.field-error .error-msg { display: block; }
+
+.row-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+  font-size: 13px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-dark);
+}
+
+.remember input { accent-color: var(--teal); }
+
+a.link {
+  color: var(--teal);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a.link:hover { text-decoration: underline; }
+
+button.login-btn {
+  width: 100%;
+  padding: 13px;
+  background: var(--navy);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+button.login-btn:hover { background: #0c3050; }
+button.login-btn:active { transform: translateY(1px); }
+button.login-btn:disabled {
+  background: #93a6b3;
+  cursor: not-allowed;
+}
+
+.signup-text {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 18px 0 16px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 0 0 16px;
+}
+
+.user-text {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-dark);
+}
+
+.form-msg {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 14px;
+  min-height: 18px;
+}
+
+.form-msg.success { color: var(--teal); }
+.form-msg.error { color: #d64545; }
+
+/* RIGHT PANEL */
+.brand-panel {
+  flex: 1 1 320px;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.brand-panel .mark { width: 220px; height: 220px; object-fit: contain; }
+
+.brand-panel .brand-name {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--navy);
+  font-family: 'Poppins', sans-serif;
+  margin-top: 4px;
+}
+
+.brand-panel .brand-name span { color: var(--teal); }
+
+.brand-panel .brand-tagline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--teal);
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.brand-panel .brand-tagline .bar {
+  width: 26px;
+  height: 1px;
+  background: var(--teal);
+  display: inline-block;
+}
+
+@media (max-width: 700px) {
+  .page { flex-direction: column-reverse; }
+  .brand-panel .mark { width: 160px; height: 160px; }
+  .brand-panel .brand-name { font-size: 24px; }
+}

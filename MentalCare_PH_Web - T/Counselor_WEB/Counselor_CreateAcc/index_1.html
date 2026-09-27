@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - Counselor Account Request</title>
+<link rel="stylesheet" href="styles_1.css">
+</head>
+<body>
+
+<div class="page">
+
+  <!-- LEFT: BRAND MARK -->
+  <div class="brand-panel">
+    <img class="mark" src="/pictures/776639704_28097395019922794_1637696865324547307_n (1).jpg" alt="MentalCare PH">
+    <div class="brand-name">Mental<span>Care</span> PH</div>
+    <div class="brand-tagline">
+      <span class="bar"></span> Mind. Care. Thrive. <span class="bar"></span>
+    </div>
+  </div>
+
+  <!-- RIGHT: FORM -->
+  <div class="form-panel">
+    <h1 class="title">Counselor account request</h1>
+    <p class="subtitle">Join MentalCare PH as a guidance counselor or licensed therapist</p>
+
+    <form id="requestForm" novalidate>
+      <div class="two-col">
+        <div class="field" id="firstNameField">
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" placeholder="Ana" autocomplete="given-name">
+          <div class="error-msg">First name is required.</div>
+        </div>
+        <div class="field" id="lastNameField">
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" placeholder="Reyes" autocomplete="family-name">
+          <div class="error-msg">Last name is required.</div>
+        </div>
+      </div>
+
+      <div class="field" id="emailField">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="areyes@mentalcareph.com" autocomplete="email">
+        <div class="error-msg">Please enter a valid email address.</div>
+      </div>
+
+      <div class="two-col">
+        <div class="field" id="licenseField">
+          <label for="license">License Number</label>
+          <input type="text" id="license" placeholder="PRC-0012345">
+          <div class="error-msg">License number is required.</div>
+        </div>
+        <div class="field" id="specializationField">
+          <label for="specialization">Specialization</label>
+          <input type="text" id="specialization" placeholder="Anxiety, Stress Management">
+          <div class="error-msg">Specialization is required.</div>
+        </div>
+      </div>
+
+      <div class="field" id="institutionField">
+        <label for="institution">Institution/affiliation</label>
+        <input type="text" id="institution" placeholder="ATCI Guidance Office">
+        <div class="error-msg">Institution/affiliation is required.</div>
+      </div>
+
+      <div class="field" id="passwordField">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Create a password" autocomplete="new-password">
+        <div class="error-msg">Password must be at least 8 characters.</div>
+      </div>
+
+      <button type="submit" class="submit-btn" id="submitBtn">Submit for verification</button>
+
+      <div class="form-msg" id="formMsg"></div>
+    </form>
+  </div>
+
+</div>
+
+<script src="script_1.js"></script>
+<script src="../../prototype-navigation.js"></script>
+</body>
+</html>

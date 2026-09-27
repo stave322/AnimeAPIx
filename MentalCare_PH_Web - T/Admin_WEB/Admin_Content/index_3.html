@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - Content Management</title>
+<link rel="stylesheet" href="styles_3.css">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="sidebar-brand">MentalCare PH</div>
+
+  <div class="sidebar-nav">
+    <button class="nav-item" data-page="dashboard"><span class="nav-icon">🏠</span> Dashboard</button>
+    <button class="nav-item" data-page="users"><span class="nav-icon">👥</span> User management</button>
+    <button class="nav-item active" data-page="content"><span class="nav-icon">📚</span> Content management</button>
+    <button class="nav-item" data-page="reports"><span class="nav-icon">📈</span> Reports &amp; analytics</button>
+    <button class="nav-item" data-page="roles"><span class="nav-icon">🎚️</span> Role permissions</button>
+    <button class="nav-item" data-page="settings"><span class="nav-icon">⚙️</span> System settings</button>
+    <button class="nav-item" data-page="audit"><span class="nav-icon">📋</span> Audit logs</button>
+  </div>
+
+  <div class="sidebar-footer">
+    <div class="sidebar-avatar">SA</div>
+    <div>
+      <div class="sidebar-user-name">System Admin</div>
+      <div class="sidebar-user-role">Administrator</div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+  <div class="header-row">
+    <h1 class="page-title">Educational content</h1>
+    <button class="new-resource-btn" id="newResourceBtn">+ New Resources</button>
+  </div>
+  <p class="page-sub"><span id="publishedCount">67</span> published · <span id="draftCount">5</span> drafts</p>
+
+  <!-- CATEGORY CHIPS -->
+  <div class="chip-row" id="chipRow">
+    <button class="chip active" data-cat="All Categories">All Categories</button>
+    <button class="chip" data-cat="Anxiety">Anxiety</button>
+    <button class="chip" data-cat="Stress">Stress</button>
+    <button class="chip" data-cat="Sleep">Sleep</button>
+    <button class="chip" data-cat="Self-care">Self-care</button>
+    <button class="chip add-chip" id="addCategoryBtn">+ Add category</button>
+  </div>
+
+  <!-- TABLE -->
+  <div class="table-panel">
+    <table class="content-table">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Type</th>
+          <th>Category</th>
+          <th>Status</th>
+          <th>Updated</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="contentBody"></tbody>
+    </table>
+  </div>
+</div>
+
+<script src="script_3.js"></script>
+<script src="../../prototype-navigation.js"></script>
+</body>
+</html>

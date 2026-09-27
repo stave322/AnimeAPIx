@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - User Management</title>
+<link rel="stylesheet" href="styles_2.css">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="sidebar-brand">MentalCare PH</div>
+
+  <div class="sidebar-nav">
+    <button class="nav-item" data-page="dashboard"><span class="nav-icon">🏠</span> Dashboard</button>
+    <button class="nav-item active" data-page="users"><span class="nav-icon">👥</span> User management</button>
+    <button class="nav-item" data-page="content"><span class="nav-icon">📚</span> Content management</button>
+    <button class="nav-item" data-page="reports"><span class="nav-icon">📈</span> Reports &amp; analytics</button>
+    <button class="nav-item" data-page="roles"><span class="nav-icon">🎚️</span> Role permissions</button>
+    <button class="nav-item" data-page="settings"><span class="nav-icon">⚙️</span> System settings</button>
+    <button class="nav-item" data-page="audit"><span class="nav-icon">📋</span> Audit logs</button>
+  </div>
+
+  <div class="sidebar-footer">
+    <div class="sidebar-avatar">SA</div>
+    <div>
+      <div class="sidebar-user-name">System Admin</div>
+      <div class="sidebar-user-role">Administrator</div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+  <div class="header-row">
+    <h1 class="page-title">User management</h1>
+    <button class="add-user-btn" id="addUserBtn">+ Add User</button>
+  </div>
+  <p class="page-sub"><span id="userCount">1,248</span> registered accounts</p>
+
+  <!-- FILTER BAR -->
+  <div class="filter-bar">
+    <input type="text" class="search-input" id="searchInput" placeholder="Search by name or email">
+    <select class="filter-select" id="roleFilter">
+      <option value="all">All role</option>
+      <option value="client">Client</option>
+      <option value="counselor">Counselor</option>
+    </select>
+    <select class="filter-select" id="statusFilter">
+      <option value="all">All Status</option>
+      <option value="active">Active</option>
+      <option value="suspended">Suspended</option>
+      <option value="pending">Pending</option>
+    </select>
+  </div>
+
+  <!-- TABLE -->
+  <div class="table-panel">
+    <table class="users-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Role</th>
+          <th>Status</th>
+          <th>Joined</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="usersBody"></tbody>
+    </table>
+  </div>
+</div>
+
+<script src="script_2.js"></script>
+<script src="../../prototype-navigation.js"></script>
+</body>
+</html>

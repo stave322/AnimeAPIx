@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --navy: #0e3a5c;
+  --teal: #1aab8a;
+  --teal-light: #4fc3a1;
+  --teal-bg: #dff2ea;
+  --leaf: #8bc34a;
+  --leaf-light: #a9cf9a;
+  --text-dark: #1b2a35;
+  --text-muted: #6b7a84;
+  --border: #e2e7ea;
+  --bg: #f7f9fa;
+  --card: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text-dark);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 32px;
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  display: block;
+}
+
+.nav-brand-text { line-height: 1.1; }
+
+.nav-brand-text .brand {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--navy);
+}
+
+.nav-brand-text .brand span { color: var(--teal); }
+
+.nav-brand-text .tagline {
+  font-size: 8px;
+  letter-spacing: 1px;
+  color: var(--teal-light);
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  gap: 34px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.nav-links a.active {
+  color: var(--teal);
+  font-weight: 600;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.bell-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #d99a2b;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 4px;
+}
+
+.bell-btn .dot {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 8px;
+  height: 8px;
+  background: #d64545;
+  border-radius: 50%;
+  border: 1.5px solid #fff;
+}
+
+.bell-btn .dot.hidden { display: none; }
+
+.avatar-btn {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--teal);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+/* MAIN */
+.main {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 32px 24px 60px;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+h1.page-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--navy);
+  margin: 0;
+}
+
+.mark-read-link {
+  background: none;
+  border: none;
+  color: var(--navy);
+  font-size: 13.5px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.mark-read-link:hover { text-decoration: underline; }
+
+.mark-read-link:disabled {
+  color: var(--text-muted);
+  cursor: default;
+  text-decoration: none;
+}
+
+/* NOTIFICATION LIST */
+.notif-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.notif-card {
+  display: flex;
+  gap: 16px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--border);
+  border-radius: 10px;
+  padding: 18px 20px;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.notif-card:hover { background: #fafbfb; }
+
+.notif-card.unread {
+  border-left-color: var(--teal);
+}
+
+.notif-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: var(--teal-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  flex-shrink: 0;
+}
+
+.notif-body { flex: 1; min-width: 0; }
+
+.notif-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.notif-title {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.unread-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--teal);
+  flex-shrink: 0;
+}
+
+.notif-desc {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0 0 6px;
+}
+
+.notif-time {
+  font-size: 11.5px;
+  color: #9aa8b0;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+@media (max-width: 700px) {
+  .nav-links { display: none; }
+}

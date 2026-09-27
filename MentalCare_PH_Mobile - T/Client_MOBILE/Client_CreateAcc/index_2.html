@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - Create Account (iPhone 17 Preview)</title>
+<link rel="stylesheet" href="styles_2.css">
+</head>
+<body>
+
+<div class="stage">
+  <div>
+    <div class="iphone">
+      <div class="screen">
+        <div class="dynamic-island"></div>
+
+        <div class="status-bar">
+          <span>9:41</span>
+          <div class="status-icons">
+            <svg width="18" height="12" viewBox="0 0 18 12" fill="none"><rect x="0" y="7" width="3" height="5" rx="0.5" fill="#1b2a35"/><rect x="4.5" y="5" width="3" height="7" rx="0.5" fill="#1b2a35"/><rect x="9" y="3" width="3" height="9" rx="0.5" fill="#1b2a35"/><rect x="13.5" y="0" width="3" height="12" rx="0.5" fill="#1b2a35"/></svg>
+            <svg width="16" height="12" viewBox="0 0 16 12" fill="none"><path d="M8 10.5C8.55 10.5 9 10.05 9 9.5C9 8.95 8.55 8.5 8 8.5C7.45 8.5 7 8.95 7 9.5C7 10.05 7.45 10.5 8 10.5Z" fill="#1b2a35"/><path d="M8 6.8C9.1 6.8 10.1 7.2 10.9 7.9L12 6.7C10.9 5.7 9.5 5.1 8 5.1C6.5 5.1 5.1 5.7 4 6.7L5.1 7.9C5.9 7.2 6.9 6.8 8 6.8Z" fill="#1b2a35"/><path d="M8 3.1C10.1 3.1 12 3.9 13.5 5.3L14.6 4.1C12.8 2.4 10.5 1.4 8 1.4C5.5 1.4 3.2 2.4 1.4 4.1L2.5 5.3C4 3.9 5.9 3.1 8 3.1Z" fill="#1b2a35"/></svg>
+            <svg width="24" height="12" viewBox="0 0 24 12" fill="none"><rect x="0.5" y="0.5" width="21" height="11" rx="2.5" stroke="#1b2a35"/><rect x="2" y="2" width="16" height="8" rx="1.3" fill="#1b2a35"/><rect x="22.5" y="4" width="1.5" height="4" rx="0.7" fill="#1b2a35"/></svg>
+          </div>
+        </div>
+
+        <div class="app-content">
+
+          <button type="button" class="back-btn" id="backLoginBtn" aria-label="Back to login" title="Back to login">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+
+          <h1 class="title">Create your account</h1>
+          <p class="subtitle">Sign up as a student or employee.</p>
+
+          <form id="signupForm" novalidate>
+            <div class="field" id="fullNameField">
+              <label for="fullName">Full Name</label>
+              <input type="text" id="fullName" placeholder="Juana Dela Cruz" autocomplete="name">
+              <div class="error-msg">Full name is required.</div>
+            </div>
+
+            <div class="field" id="emailField">
+              <label for="email">Institution Email</label>
+              <input type="email" id="email" placeholder="juana@atc.edu.ph" autocomplete="email">
+              <div class="error-msg">Please enter a valid email address.</div>
+            </div>
+
+            <div class="field" id="passwordField">
+              <label for="password">Password</label>
+              <input type="password" id="password" placeholder="Create a password" autocomplete="new-password">
+              <div class="error-msg">Password must be at least 8 characters.</div>
+            </div>
+
+            <div class="field" id="roleField">
+              <label for="role">I am a</label>
+              <select id="role">
+                <option value="student">Student</option>
+                <option value="employee">Employee</option>
+              </select>
+              <div class="error-msg">Please select an option.</div>
+            </div>
+
+            <div class="consent-row" id="consentField">
+              <input type="checkbox" id="consent">
+              <label for="consent">I agree to the <a href="#" id="privacyLink">Privacy Policy</a></label>
+            </div>
+
+            <button type="submit" class="create-btn" id="createBtn">Create Account</button>
+
+            <div class="form-msg" id="formMsg"></div>
+          </form>
+
+          <div class="login-text">
+            Already registered? <a href="#" id="loginLink">Login</a>
+          </div>
+
+        </div>
+
+        <div class="home-indicator"></div>
+      </div>
+    </div>
+
+    <div class="caption">MentalCare PH — Create Account · iPhone 17 preview</div>
+  </div>
+</div>
+
+<script src="../../prototype-navigation.js"></script>
+<script src="script_2.js"></script>
+</body>
+</html>

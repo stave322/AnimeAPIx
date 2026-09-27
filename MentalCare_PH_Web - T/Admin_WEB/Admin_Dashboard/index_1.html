@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - Admin System Overview</title>
+<link rel="stylesheet" href="styles_1.css">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="sidebar-brand">MentalCare PH</div>
+
+  <div class="sidebar-nav">
+    <button class="nav-item active" data-page="dashboard"><span class="nav-icon">🏠</span> Dashboard</button>
+    <button class="nav-item" data-page="users"><span class="nav-icon">👥</span> User management</button>
+    <button class="nav-item" data-page="content"><span class="nav-icon">📚</span> Content management</button>
+    <button class="nav-item" data-page="reports"><span class="nav-icon">📈</span> Reports &amp; analytics</button>
+    <button class="nav-item" data-page="roles"><span class="nav-icon">🎚️</span> Role permissions</button>
+    <button class="nav-item" data-page="settings"><span class="nav-icon">⚙️</span> System settings</button>
+    <button class="nav-item" data-page="audit"><span class="nav-icon">📋</span> Audit logs</button>
+  </div>
+
+  <div class="sidebar-footer">
+    <div class="sidebar-avatar">SA</div>
+    <div>
+      <div class="sidebar-user-name">System Admin</div>
+      <div class="sidebar-user-role">Administrator</div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+  <div class="header-row">
+    <h1 class="page-title">System overview</h1>
+    <button class="report-btn" id="reportBtn">Generate Report</button>
+  </div>
+  <p class="page-sub">Platform-wide activity and health</p>
+
+  <!-- STAT CARDS -->
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-label">Total users</div>
+      <div class="stat-value">1,248</div>
+      <div class="stat-sub">▲ 52 this month</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Active counselors</div>
+      <div class="stat-value">24</div>
+      <div class="stat-sub" id="pendingVerification">3 pending verification</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Appointments (30d)</div>
+      <div class="stat-value">386</div>
+      <div class="stat-sub">▲ 12% vs last month</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Published resources</div>
+      <div class="stat-value">67</div>
+      <div class="stat-sub" id="draftsPending">5 drafts pending</div>
+    </div>
+  </div>
+
+  <!-- CONTENT GRID -->
+  <div class="content-grid">
+    <!-- RECENT ACTIVITY -->
+    <div class="panel">
+      <h2>Recent activity</h2>
+      <table class="activity-table">
+        <thead>
+          <tr>
+            <th>Action</th>
+            <th>User</th>
+            <th>Table</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody id="activityBody"></tbody>
+      </table>
+    </div>
+
+    <!-- NEW APPOINTMENT REQUESTS -->
+    <div class="panel">
+      <h2>New appointment requests</h2>
+      <div id="requestList"></div>
+    </div>
+  </div>
+</div>
+
+<script src="script_1.js"></script>
+<script src="../../prototype-navigation.js"></script>
+</body>
+</html>

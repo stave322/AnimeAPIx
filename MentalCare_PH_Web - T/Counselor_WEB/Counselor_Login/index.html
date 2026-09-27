@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - Counselor Portal</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="page">
+
+  <!-- LEFT: LOGIN FORM -->
+  <div class="form-panel">
+    <div class="logo-row">
+      <img src="/pictures/776639704_28097395019922794_1637696865324547307_n (1).jpg" alt="MentalCare PH logo" class="nav-logo">
+      <div class="logo-text">
+        <div class="brand">Mental<span>Care</span> PH</div>
+        <div class="tagline">MIND. CARE. THRIVE.</div>
+      </div>
+    </div>
+
+    <h1 class="welcome">Counselor Portal</h1>
+    <p class="subtitle">Access your appointment and client dashboard.</p>
+
+    <form id="loginForm" novalidate>
+      <div class="field" id="emailField">
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email">
+        <div class="error-msg" id="emailError">Please enter a valid email address.</div>
+      </div>
+
+      <div class="field" id="passwordField">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password">
+        <div class="error-msg" id="passwordError">Password is required.</div>
+      </div>
+
+      <div class="row-between">
+        <label class="remember">
+          <input type="checkbox" id="remember"> Remember me
+        </label>
+        <a href="#" class="link" id="forgotLink">Forgot Password?</a>
+      </div>
+
+      <button type="submit" class="login-btn" id="loginBtn">Log In</button>
+
+      <div class="form-msg" id="formMsg"></div>
+    </form>
+
+    <div class="signup-text">
+      Don't have an account? <a href="#" class="link" id="createLink">Create One</a>
+    </div>
+
+    <hr>
+
+    <div class="user-text">
+      Are you a User? <a href="#" class="link" id="userLink">Log in here</a>
+    </div>
+  </div>
+
+  <!-- RIGHT: BRAND MARK -->
+  <div class="brand-panel">
+    <img class="mark" src="/pictures/776639704_28097395019922794_1637696865324547307_n (1).jpg" alt="MentalCare PH">
+    <div class="brand-name">Mental<span>Care</span> PH</div>
+    <div class="brand-tagline">
+      <span class="bar"></span> Mind. Care. Thrive. <span class="bar"></span>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+<script src="../../prototype-navigation.js"></script>
+</body>
+</html>

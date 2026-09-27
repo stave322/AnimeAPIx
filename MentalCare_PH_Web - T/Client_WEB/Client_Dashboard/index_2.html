@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - Dashboard</title>
+
+<!-- STYLES -->
+<link rel="stylesheet" href="styles_2.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="nav-left">
+    <img src="../../../pictures/776639704_28097395019922794_1637696865324547307_n%20(1).jpg" alt="MentalCare PH Logo" class="nav-logo">
+    <div class="nav-brand-text">
+      <div class="brand">Mental<span>Care</span> PH</div>
+      <div class="tagline">MIND. CARE. THRIVE.</div>
+    </div>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="#" class="active" data-page="home">Home</a></li>
+    <li><a href="#" data-page="resources">Resources</a></li>
+    <li><a href="#" data-page="appointment">Appointment</a></li>
+    <li><a href="#" data-page="assessment">Assesment</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <button class="bell-btn" id="bellBtn" aria-label="Notifications">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></svg>
+      <span class="dot"></span>
+    </button>
+    <button class="avatar" id="avatarBtn">RY</button>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+  <h1 class="greeting" id="greeting">Good morning, Ryan</h1>
+  <p class="subgreeting">Here's an overview of your wellness journey this week.</p>
+
+  <!-- STAT CARDS -->
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-label">Mood this Week</div>
+      <div class="stat-value">🙂 Good</div>
+      <div class="stat-sub">▲ Improve vs last week</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Last Appointment</div>
+      <div class="stat-value">Aug 14, 2:00 PM</div>
+      <div class="stat-sub muted">with Plaza</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Appointments</div>
+      <div class="stat-value">4</div>
+      <div class="stat-sub muted">Last: Aug 05</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Resources saved</div>
+      <div class="stat-value">9</div>
+      <div class="stat-sub">3 new this week</div>
+    </div>
+  </div>
+
+  <!-- CONTENT GRID -->
+  <div class="content-grid">
+    <!-- LEFT PANEL -->
+    <div class="panel">
+      <h2>Mood tracker</h2>
+      <div class="mood-row" id="moodRow">
+        <div class="mood-day">
+          <button class="mood-circle good" data-mood="Good">🙂</button>
+          <span class="mood-label">Mon</span>
+        </div>
+        <div class="mood-day">
+          <button class="mood-circle great" data-mood="Great">😄</button>
+          <span class="mood-label">Tue</span>
+        </div>
+        <div class="mood-day">
+          <button class="mood-circle ok" data-mood="Okay">😐</button>
+          <span class="mood-label">Wed</span>
+        </div>
+        <div class="mood-day">
+          <button class="mood-circle low" data-mood="Low">🙁</button>
+          <span class="mood-label">Thu</span>
+        </div>
+        <div class="mood-day">
+          <button class="mood-circle empty" data-mood="">—</button>
+          <span class="mood-label">Fri</span>
+        </div>
+        <div class="mood-day">
+          <button class="mood-circle empty" data-mood="">—</button>
+          <span class="mood-label">Sat</span>
+        </div>
+        <div class="mood-day">
+          <button class="mood-circle empty" data-mood="">—</button>
+          <span class="mood-label">Sun</span>
+        </div>
+      </div>
+
+      <div class="mood-modal hidden" id="moodModal" aria-hidden="true">
+        <div class="mood-modal-content">
+          <div class="mood-modal-header">
+            <h3 id="moodModalTitle">How are you feeling today?</h3>
+            <button class="close-modal" id="closeMoodModal" type="button" aria-label="Close mood picker">×</button>
+          </div>
+          <div class="mood-options" id="moodOptions">
+            <button class="mood-option" data-label="Great" data-emoji="😄" data-tone="great" type="button">
+              <span class="mood-option-emoji">😄</span>
+              <span>Great</span>
+            </button>
+            <button class="mood-option" data-label="Good" data-emoji="🙂" data-tone="good" type="button">
+              <span class="mood-option-emoji">🙂</span>
+              <span>Good</span>
+            </button>
+            <button class="mood-option" data-label="Okay" data-emoji="😐" data-tone="ok" type="button">
+              <span class="mood-option-emoji">😐</span>
+              <span>Okay</span>
+            </button>
+            <button class="mood-option" data-label="Low" data-emoji="🙁" data-tone="low" type="button">
+              <span class="mood-option-emoji">🙁</span>
+              <span>Low</span>
+            </button>
+          </div>
+          <div class="mood-notice hidden" id="moodNotice" aria-live="polite"></div>
+          <button class="remove-mood-btn" id="removeMoodBtn" type="button">Remove mood</button>
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <h2>Continue your self-assessment</h2>
+      <div class="assessment-card">
+        <div>
+          <div class="assessment-title">Stress &amp; Anxiety Check-in</div>
+          <div class="assessment-sub" id="assessProgress">6 of 10 question completed</div>
+        </div>
+        <button class="resume-btn" id="resumeBtn">Resume</button>
+      </div>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="panel">
+      <div class="appt-header-row">
+        <h2>Upcoming appointment</h2>
+        <div class="appt-nav" aria-label="Appointment navigation">
+          <button class="appt-nav-btn" id="prevAppointmentBtn" type="button" aria-label="Previous appointment">←</button>
+          <button class="appt-nav-btn" id="nextAppointmentBtn" type="button" aria-label="Next appointment">→</button>
+        </div>
+      </div>
+      <div class="appt-card">
+        <div class="appt-top">
+          <div class="appt-avatar">PL</div>
+          <div>
+            <div class="appt-name">Mr. John Carlo Plaza</div>
+            <div class="appt-meta">Virtual · Aug 14, 2:00 PM</div>
+          </div>
+        </div>
+        <div class="appt-actions">
+          <button class="btn-reschedule" id="rescheduleBtn">Reschedule</button>
+          <button class="btn-cancel" id="cancelBtn">Cancel</button>
+          <button class="btn-join" id="joinBtn">Join</button>
+        </div>
+      </div>
+
+      <h2>Recommended for you</h2>
+      <div class="reco-item">
+        <div class="reco-icon blue">📄</div>
+        <div class="reco-text">5 grounding techniques for stress</div>
+      </div>
+      <div class="reco-item">
+        <div class="reco-icon green">🐻</div>
+        <div class="reco-text">Guided breathing - 5 min video</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SCRIPT -->
+<script src="script_2.js"></script>
+
+<script src="../../prototype-navigation.js"></script>
+</body>
+</html>

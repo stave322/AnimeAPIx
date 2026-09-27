@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MentalCare PH - Profile</title>
+<link rel="stylesheet" href="styles_7.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="nav-left">
+    <img src="../../../pictures/776639704_28097395019922794_1637696865324547307_n (1).jpg" alt="MentalCare PH logo" class="nav-logo">
+    <div class="nav-brand-text">
+      <div class="brand">Mental<span>Care</span> PH</div>
+      <div class="tagline">MIND. CARE. THRIVE.</div>
+    </div>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="#" data-page="home">Home</a></li>
+    <li><a href="#" data-page="resources">Resources</a></li>
+    <li><a href="#" data-page="appointment">Appointment</a></li>
+    <li><a href="#" data-page="assessment">Assessment</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <button class="bell-btn" id="bellBtn" aria-label="Notifications">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></svg>
+      <span class="dot"></span>
+    </button>
+    <button class="avatar-btn" id="avatarBtn">RY</button>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <div class="profile-header">
+    <div class="profile-avatar" id="headerAvatar">RY</div>
+    <div>
+      <h1 class="profile-name" id="headerName">Ryan James Gumawang</h1>
+      <div class="profile-meta" id="headerMeta">Student &nbsp;·&nbsp; ACES Tagum College, Tagum City</div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>Personal Information</h2>
+
+    <form id="profileForm" novalidate>
+      <div class="form-row">
+        <div class="field" id="fullNameField">
+          <label class="field-label" for="fullName">Full Name</label>
+          <input type="text" id="fullName" value="Ryan James Gumawang">
+          <div class="error-msg">Full name is required.</div>
+        </div>
+        <div class="field" id="emailField">
+          <label class="field-label" for="email">Email</label>
+          <input type="email" id="email" value="ryan.gumawang@aces.edu.ph">
+          <div class="error-msg">Please enter a valid email.</div>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="field" id="phoneField">
+          <label class="field-label" for="phone">Phone Number</label>
+          <input type="tel" id="phone" value="09171234567">
+          <div class="error-msg">Please enter a valid phone number.</div>
+        </div>
+        <div class="field" id="dobField">
+          <label class="field-label" for="dob">Date of Birth</label>
+          <input type="date" id="dob" value="2003-05-14">
+          <div class="error-msg">Please select your date of birth.</div>
+        </div>
+      </div>
+
+      <div class="field" style="margin-bottom: 22px;">
+        <label class="field-label" for="bio">Short Bio</label>
+        <textarea id="bio" placeholder="Tell us a bit about yourself...">Third-year Psychology student exploring stress management techniques for students.</textarea>
+      </div>
+
+      <div class="btn-row">
+        <button type="submit" class="btn-save">Save Change</button>
+        <button type="button" class="btn-cancel" id="cancelBtn">Cancel</button>
+      </div>
+
+      <div class="save-msg" id="saveMsg"></div>
+    </form>
+  </div>
+
+  <div class="panel">
+    <h2>Save Change</h2>
+    <p class="privacy-desc">Your self-assessment and session data are only visible to you and your assigned counselor.</p>
+    <button class="btn-privacy" id="privacyBtn">Manage Privacy settings</button>
+  </div>
+
+</div>
+
+<script src="script_7.js"></script>
+<script src="../../prototype-navigation.js"></script>
+</body>
+</html>

@@ -1,0 +1,263 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|c:\\users\\user\\onedrive\\documents\\c# files\\windows form\\finalproject_eventattendance02\\finalproject_eventattendance02\\export.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\export.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\finalproject_eventattendance02\\export.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\export.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|c:\\users\\user\\onedrive\\documents\\c# files\\windows form\\finalproject_eventattendance02\\finalproject_eventattendance02\\event details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\event details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\finalproject_eventattendance02\\event details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\event details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\finalproject_eventattendance02\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\finalproject_eventattendance02\\add session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\add session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|c:\\users\\user\\onedrive\\documents\\c# files\\windows form\\finalproject_eventattendance02\\finalproject_eventattendance02\\add session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\add session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|c:\\users\\user\\onedrive\\documents\\c# files\\windows form\\finalproject_eventattendance02\\finalproject_eventattendance02\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|c:\\users\\user\\onedrive\\documents\\c# files\\windows form\\finalproject_eventattendance02\\finalproject_eventattendance02\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\finalproject_eventattendance02\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|c:\\users\\user\\onedrive\\documents\\c# files\\windows form\\finalproject_eventattendance02\\finalproject_eventattendance02\\eventdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\eventdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\finalproject_eventattendance02\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|c:\\users\\user\\onedrive\\documents\\c# files\\windows form\\finalproject_eventattendance02\\finalproject_eventattendance02\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\finalproject_eventattendance02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|c:\\users\\user\\onedrive\\documents\\c# files\\windows form\\finalproject_eventattendance02\\finalproject_eventattendance02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Admin.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Admin.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Admin.cs",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Admin.cs",
+              "ViewState": "AgIAAKsHAAAAAAAAAAAuwIAHAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T04:23:31.132Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Export.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Export.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Export.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Export.cs",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Export.cs",
+              "ViewState": "AgIAAN0BAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T23:20:34.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Student.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Student.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Student.cs [Design]",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Student.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T08:52:03.635Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Event Details.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Event Details.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Event Details.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Event Details.cs [Design]",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Event Details.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T07:23:30.489Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Event Details.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Event Details.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Event Details.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Event Details.cs",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Event Details.cs",
+              "ViewState": "AgIAAOQBAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T10:28:19.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Export.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Export.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Export.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Export.cs [Design]",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Export.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T10:21:18.089Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Add Session.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Add Session.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Add Session.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Add Session.cs [Design]",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Add Session.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T10:26:15.543Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Add Session.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Add Session.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Add Session.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Add Session.cs",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Add Session.cs",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAYwOkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T10:28:46.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Student.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Student.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Student.cs",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Student.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIAzwBUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T08:52:18.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Login.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Login.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Login.cs [Design]",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T10:28:39.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventDB.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\EventDB.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\EventDB.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\EventDB.cs",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\EventDB.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAcwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T01:37:50.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Login.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Login.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Login.cs",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Login.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T10:28:40.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Form1.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Form1.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Form1.cs",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Form1.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T10:27:06.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Form1.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Form1.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Form1.cs [Design]",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T10:27:04.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Admin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Admin.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Admin.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Documents\\C# Files\\Windows Form\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Admin.cs [Design]",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Admin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T07:20:26.586Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

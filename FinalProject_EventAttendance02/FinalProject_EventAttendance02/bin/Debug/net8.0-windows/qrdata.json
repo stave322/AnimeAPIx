@@ -1,0 +1,42 @@
+[
+  {
+    "StudentName": "John Carlo Plaza",
+    "StudentID": "2024001460",
+    "Course": "BSIT",
+    "Year": "1st Year",
+    "PhotoPath": "C:\\Users\\user\\OneDrive\\Documents\\Pictures\\DCIM\\Camera\\20240221_134243.jpg",
+    "QRCodeData": "2024001460"
+  },
+  {
+    "StudentName": "Ryan James Gumawang",
+    "StudentID": "2024001461",
+    "Course": "BSIT",
+    "Year": "2nd Year",
+    "PhotoPath": "C:\\Users\\user\\Downloads\\651727167_2133632754059477_646016186836652432_n (1).jpg",
+    "QRCodeData": "2024001461"
+  },
+  {
+    "StudentName": "Ashton Lloyd Quisquisol",
+    "StudentID": "2024001462",
+    "Course": "BSHM",
+    "Year": "3rd Year",
+    "PhotoPath": "C:\\Users\\user\\Downloads\\327170954_715314683368982_2326343430478082732_n (1).jpg",
+    "QRCodeData": "2024001462"
+  },
+  {
+    "StudentName": "John Carlo Plaza",
+    "StudentID": "2024001460",
+    "Course": "BSIT",
+    "Year": "2nd Year",
+    "PhotoPath": "",
+    "QRCodeData": "2024001460"
+  },
+  {
+    "StudentName": "Ryan James Gumawang",
+    "StudentID": "2024001461",
+    "Course": "BSIT",
+    "Year": "1st Year",
+    "PhotoPath": "",
+    "QRCodeData": "2024001461"
+  }
+]

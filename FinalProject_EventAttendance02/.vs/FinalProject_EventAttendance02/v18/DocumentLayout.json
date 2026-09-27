@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Desktop\\Programming\\FinalProject_EventAttendance02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|c:\\users\\user\\onedrive\\desktop\\programming\\finalproject_eventattendance02\\finalproject_eventattendance02\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|c:\\users\\user\\onedrive\\desktop\\programming\\finalproject_eventattendance02\\finalproject_eventattendance02\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|c:\\users\\user\\onedrive\\desktop\\programming\\finalproject_eventattendance02\\finalproject_eventattendance02\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|c:\\users\\user\\onedrive\\desktop\\programming\\finalproject_eventattendance02\\finalproject_eventattendance02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DB6E7F-9F19-4E03-8683-A76BADA252AD}|FinalProject_EventAttendance02\\FinalProject_EventAttendance02.csproj|solutionrelative:finalproject_eventattendance02\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Programming\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Admin.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Admin.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Programming\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Admin.cs",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Admin.cs",
+              "ViewState": "AgIAAFABAAAAAAAAAAAYwFYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T07:37:09.753Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Programming\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Student.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Student.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Programming\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Student.cs",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T07:37:11.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Programming\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Login.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Login.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Programming\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Login.cs",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Login.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T07:37:11.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Programming\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Form1.cs",
+              "RelativeDocumentMoniker": "FinalProject_EventAttendance02\\Form1.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Programming\\FinalProject_EventAttendance02\\FinalProject_EventAttendance02\\Form1.cs",
+              "RelativeToolTip": "FinalProject_EventAttendance02\\Form1.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAuwBEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T07:37:11.921Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

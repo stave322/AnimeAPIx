@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Project Error_404\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68244AF6-032B-E94A-9236-C3C76C7EC4C5}|Project Error_404\\Project Error_404.csproj|c:\\users\\user\\source\\repos\\project error_404\\project error_404\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68244AF6-032B-E94A-9236-C3C76C7EC4C5}|Project Error_404\\Project Error_404.csproj|solutionrelative:project error_404\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68244AF6-032B-E94A-9236-C3C76C7EC4C5}|Project Error_404\\Project Error_404.csproj|c:\\users\\user\\source\\repos\\project error_404\\project error_404\\res.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68244AF6-032B-E94A-9236-C3C76C7EC4C5}|Project Error_404\\Project Error_404.csproj|solutionrelative:project error_404\\res.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68244AF6-032B-E94A-9236-C3C76C7EC4C5}|Project Error_404\\Project Error_404.csproj|c:\\users\\user\\source\\repos\\project error_404\\project error_404\\res.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68244AF6-032B-E94A-9236-C3C76C7EC4C5}|Project Error_404\\Project Error_404.csproj|solutionrelative:project error_404\\res.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68244AF6-032B-E94A-9236-C3C76C7EC4C5}|Project Error_404\\Project Error_404.csproj|c:\\users\\user\\source\\repos\\project error_404\\project error_404\\res.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68244AF6-032B-E94A-9236-C3C76C7EC4C5}|Project Error_404\\Project Error_404.csproj|solutionrelative:project error_404\\res.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68244AF6-032B-E94A-9236-C3C76C7EC4C5}|Project Error_404\\Project Error_404.csproj|C:\\Users\\user\\source\\repos\\Project Error_404\\project error_404\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68244AF6-032B-E94A-9236-C3C76C7EC4C5}|Project Error_404\\Project Error_404.csproj|solutionrelative:project error_404\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Project Error_404\\Project Error_404\\Program.cs",
+              "RelativeDocumentMoniker": "Project Error_404\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Project Error_404\\Project Error_404\\Program.cs*",
+              "RelativeToolTip": "Project Error_404\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T05:44:53.92Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Res.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Project Error_404\\Project Error_404\\Res.cs",
+              "RelativeDocumentMoniker": "Project Error_404\\Res.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Project Error_404\\Project Error_404\\Res.cs [Design]*",
+              "RelativeToolTip": "Project Error_404\\Res.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T05:48:32.014Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Res.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Project Error_404\\Project Error_404\\Res.cs",
+              "RelativeDocumentMoniker": "Project Error_404\\Res.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Project Error_404\\Project Error_404\\Res.cs*",
+              "RelativeToolTip": "Project Error_404\\Res.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T05:47:34.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Res.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Project Error_404\\Project Error_404\\Res.Designer.cs",
+              "RelativeDocumentMoniker": "Project Error_404\\Res.Designer.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Project Error_404\\Project Error_404\\Res.Designer.cs",
+              "RelativeToolTip": "Project Error_404\\Res.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T05:43:26.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Attendance.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Project Error_404\\Project Error_404\\Attendance.cs",
+              "RelativeDocumentMoniker": "Project Error_404\\Attendance.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Project Error_404\\Project Error_404\\Attendance.cs [Design]",
+              "RelativeToolTip": "Project Error_404\\Attendance.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T13:25:13.763Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

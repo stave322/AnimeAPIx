@@ -1,0 +1,52 @@
+/* Basic responsive styles inspired by the provided reference */
+:root{
+  --primary:#2a9d8f; /* teal */
+  --accent:#264653; /* dark blue */
+  --muted:#f4f7f6;
+  --text:#0b2636;
+  --max-width:1100px;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;color:var(--text);background:linear-gradient(180deg,#fff 0%,#f8fdff 100%)}
+.container{width:90%;max-width:var(--max-width);margin:0 auto}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{width:64px;height:64px;object-fit:cover;border-radius:8px}
+.brand-text h1{margin:0;font-size:1.1rem;color:var(--accent)}
+.tagline{margin:0;font-size:.85rem;color:var(--primary)}
+
+.nav a{margin-left:16px;color:var(--accent);text-decoration:none;font-weight:600}
+.nav a:hover{text-decoration:underline}
+
+.hero{padding:48px 0}
+.hero-inner{display:flex;gap:24px;align-items:center}
+.hero-copy{flex:1}
+.hero-copy h2{font-size:2rem;margin:0 0 12px}
+.hero-copy p{margin:0 0 18px;color:#2f4a54}
+.hero-image img{max-width:260px;border-radius:12px}
+
+.btn{display:inline-block;padding:10px 18px;border-radius:8px;background:transparent;border:2px solid var(--accent);color:var(--accent);text-decoration:none;font-weight:700}
+.btn.primary{background:var(--primary);border-color:var(--primary);color:white}
+
+.features{padding:36px 0;background:var(--muted);border-top:1px solid #e6f0ee}
+.features h3{text-align:center;margin:0 0 18px}
+.feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.feature-grid article{background:white;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(17,24,26,0.06)}
+
+.assessment{padding:28px 0}
+.booking{padding:36px 0}
+.booking form{max-width:520px;background:white;padding:18px;border-radius:10px;box-shadow:0 8px 22px rgba(12,22,24,0.06)}
+.booking label{display:block;margin-top:12px;font-weight:600}
+.booking input, .booking textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #dcebea;margin-top:6px}
+.booking button{margin-top:14px}
+.result{margin-top:14px;padding:12px;border-radius:8px}
+
+.contact{padding:28px 0}
+
+.site-footer{background:#02292f;color:#cfeae5;padding:14px 0;margin-top:28px}
+.site-footer p{margin:0;text-align:center}
+
+@media(max-width:800px){
+  .hero-inner{flex-direction:column;text-align:center}
+  .nav{display:none}
+}

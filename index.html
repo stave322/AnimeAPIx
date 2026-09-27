@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MentalCare PH — Support for Mental Wellbeing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <!-- Exact logo embedded as data URI -->
+        <img class="logo" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="MentalCare PH logo">
+        <div class="brand-text">
+          <h1>MentalCare PH</h1>
+          <p class="tagline">Mind. Care. Thrive.</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#resources">Resources</a>
+        <a href="#assessment">Self-Assessment</a>
+        <a href="#book">Book Appointment</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h2>Compassionate mental health support — accessible to everyone.</h2>
+          <p>Find trusted resources, self-assessment tools, and a simple way to book with licensed professionals.</p>
+          <a class="btn primary" href="#book">Book a Session</a>
+        </div>
+        <div class="hero-image">
+          <!-- use logo again as decorative element -->
+          <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="logo decorative">
+        </div>
+      </div>
+    </section>
+
+    <section id="resources" class="features">
+      <div class="container">
+        <h3>Resources & Tools</h3>
+        <div class="feature-grid">
+          <article>
+            <h4>Articles & Guides</h4>
+            <p>Evidence-based content on anxiety, depression, stress management, and more.</p>
+          </article>
+          <article>
+            <h4>Self-Assessment</h4>
+            <p>Quick assessments to help you understand your current wellbeing.</p>
+          </article>
+          <article>
+            <h4>Find a Professional</h4>
+            <p>Search licensed counselors and psychiatrists by specialty and availability.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="assessment" class="assessment">
+      <div class="container">
+        <h3>Quick Self-Assessment</h3>
+        <p>Answer a few questions to get a quick snapshot of your mental health.</p>
+        <a class="btn" href="#">Start Assessment (demo)</a>
+      </div>
+    </section>
+
+    <section id="book" class="booking">
+      <div class="container">
+        <h3>Book an Appointment</h3>
+        <form id="booking-form">
+          <label for="name">Full name</label>
+          <input id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="date">Preferred date</label>
+          <input id="date" name="date" type="date" required>
+
+          <label for="notes">Notes (optional)</label>
+          <textarea id="notes" name="notes"></textarea>
+
+          <button type="submit" class="btn primary">Request Appointment</button>
+        </form>
+        <div id="booking-result" class="result" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h3>Contact & Support</h3>
+        <p>If this is an emergency, please contact local emergency services or a crisis hotline.</p>
+        <p>For general inquiries, email <a href="mailto:info@mentalcare.ph">info@mentalcare.ph</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> MentalCare PH — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

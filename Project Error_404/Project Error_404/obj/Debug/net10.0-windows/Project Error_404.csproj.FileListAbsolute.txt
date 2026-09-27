@@ -1,0 +1,25 @@
+C:\Users\user\source\repos\Project Error_404\Project Error_404\bin\Debug\net10.0-windows\Project Error_404.exe
+C:\Users\user\source\repos\Project Error_404\Project Error_404\bin\Debug\net10.0-windows\Project Error_404.deps.json
+C:\Users\user\source\repos\Project Error_404\Project Error_404\bin\Debug\net10.0-windows\Project Error_404.runtimeconfig.json
+C:\Users\user\source\repos\Project Error_404\Project Error_404\bin\Debug\net10.0-windows\Project Error_404.dll
+C:\Users\user\source\repos\Project Error_404\Project Error_404\bin\Debug\net10.0-windows\Project Error_404.pdb
+C:\Users\user\source\repos\Project Error_404\Project Error_404\bin\Debug\net10.0-windows\ReaLTaiizor.dll
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\Project Error_404.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\Project_Error_404.account.resources
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\Project_Error_404.Attendance.resources
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\Project_Error_404.Events.resources
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\Project_Error_404.User.resources
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\Project_Error_404.Properties.Resources.resources
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\Project_Error_404.Students.resources
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\Project_Error_404.Login.resources
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\Project Error_404.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\Project Error_404.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\Project Error_404.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\Project Error_404.AssemblyInfo.cs
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\Project Error_404.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\Project .5E863099.Up2Date
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\Project Error_404.dll
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\refint\Project Error_404.dll
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\Project Error_404.pdb
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\Project Error_404.genruntimeconfig.cache
+C:\Users\user\source\repos\Project Error_404\Project Error_404\obj\Debug\net10.0-windows\ref\Project Error_404.dll
